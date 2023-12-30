@@ -1,0 +1,35 @@
+{
+    "entities": [
+        {
+            "type": "player",
+            "x": 2,
+            "y": 0
+        },
+        {
+            "type": "spider",
+            "x": 2,
+            "y": 3
+        },
+        {
+            "type": "spider",
+            "x": 3,
+            "y": 3
+        },
+        {
+            "type": "exit",
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "goal-condition": {
+        "goal": "AND",
+        "subgoals": [
+            {
+                "goal": "exit"
+            },
+            {
+                "goal": "enemies"
+            }
+        ]
+    }
+}

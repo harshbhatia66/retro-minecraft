@@ -1,0 +1,133 @@
+{
+    "entities": [
+        {
+            "x": 9,
+            "y": 0,
+            "type": "exit"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "type": "wire"
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "type": "wire"
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "type": "wire"
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "type": "switch_door",
+            "logic": "co_and"
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "type": "wire"
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "type": "wire"
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "type": "wire"
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "type": "wire"
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "type": "switch"
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "type": "boulder"
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "type": "player"
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "type": "boulder"
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "type": "switch"
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "type": "wire"
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "type": "wire"
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "type": "boulder"
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "type": "wire"
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "type": "wire"
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "type": "wire"
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "type": "wire"
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "type": "switch"
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "type": "wire"
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "type": "wire"
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "type": "wire"
+        }
+    ],
+    "goal-condition": {
+        "goal": "exit"
+    }
+}
